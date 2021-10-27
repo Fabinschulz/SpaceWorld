@@ -10,7 +10,6 @@ const LoginStyled = styled.div`
 	border-radius: 3px;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 `;
 
 export {
