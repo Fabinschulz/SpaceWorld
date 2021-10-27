@@ -1,5 +1,5 @@
 import React  from 'react';
-import Login from './components/SingIn/Login';
+import Login from './pages/SingIn/Login';
 import { Container, Typography } from '@material-ui/core';
 import 'fontsource-roboto';
 
