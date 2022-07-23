@@ -3,17 +3,17 @@ import SignIn from './pages/SingIn/Login';
 //import { Container, Typography } from '@material-ui/core';
 import 'fontsource-roboto';
 import { BrowserRouter as Router } from 'react-router-dom';
-import {  Route } from 'react-router';
+import {  Route, Switch } from 'react-router';
 //import Cadastro from './pages/Cadastro/Cadastro';
 
 function App() {
 
   return (
     <Router>
-      {/* <Switch> */}
+      <Switch>
         {/* <Route path='/' component={Cadastro} /> */}
-        <Route path='/login' component={SignIn} />
-      {/* </Switch> */}
+        <Route path='/' component={SignIn} />
+      </Switch>
     </Router>
   );
 }

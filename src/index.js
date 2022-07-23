@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './index.css';
 import App from './App';
 import { Helmet } from "react-helmet";
-
+import './index.css';
 
 render((
   <React.StrictMode>
